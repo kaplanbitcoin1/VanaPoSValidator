@@ -158,7 +158,7 @@ docker compose --profile init --profile manual run --rm submit-deposits
 
 
 ### Bir hizmete tek tek buna benzer işlemler alabilirsiniz. (Son kısımlarda isimleri değiştirmek yeterli) 
-# (geth, beacon gibi)
+### (validator yerine geth, beacon gibi)
 
 
 ```
