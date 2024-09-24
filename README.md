@@ -75,7 +75,7 @@ nano .env
 <img width="1057" alt="Ekran Resmi 2024-09-24 20 39 51" src="https://github.com/user-attachments/assets/cd959970-063b-432d-a161-04e034dc8211">
 
 
-# Her şey tamamsa şimdi validator keyimizi oluşturacağız. Bunun için:
+* Her şey tamamsa şimdi validator keyimizi oluşturacağız. Bunun için:
 
 
 
