@@ -124,3 +124,18 @@ docker compose logs check-config
 ```
 docker compose --profile init --profile validator up -d
 ```
+
+# Ayrı ayrı log kontrol
+
+```
+docker compose --profile=init --profile=node logs -f geth
+```
+
+```
+docker compose --profile=init --profile=node logs -f beacon
+```
+
+```
+docker compose --profile=init --profile=node logs -f validator
+```
+
