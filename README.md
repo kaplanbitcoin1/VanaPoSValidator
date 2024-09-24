@@ -111,7 +111,7 @@ docker compose --profile init --profile manual run --rm validator-keygen
 <img width="923" alt="Ekran Resmi 2024-09-24 21 14 22" src="https://github.com/user-attachments/assets/9cf82d77-025b-4275-8779-02a1a6f5d7e8">
 
 
-### Yaptığımız işlemleri ontrol edelim
+### Yaptığımız işlemleri kontrol edelim
 
 ```
 docker compose logs check-config
