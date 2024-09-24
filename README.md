@@ -154,11 +154,11 @@ docker compose --profile=init --profile=node logs -f validator
 <img width="1536" alt="Ekran Resmi 2024-09-24 21 22 13" src="https://github.com/user-attachments/assets/52225843-98ff-406d-a2e5-30ef7237c5cd">
 
 
-### Son olarak doğrulayıcımızın `Moksha` ağına ben de burayım demesi için `35.000` adet token'a ihtiyacı var.
+### Son olarak doğrulayıcımızın `Moksha` ağına ben de buradayım demesi için `35.000` adet token'a ihtiyacı var.
 ### Bu miktar muhtemelen birtakım eleme yöntemiyle ya da seçim süreciyle dağıtılacaktır.
 
 
-# Eğer token bulduysak eğer ben de buradayım demek için 😁
+# Eğer token bulduysak ben de buradayım demek için 😁
 
 
 ```
@@ -178,7 +178,7 @@ docker compose --profile=init --profile=node restart validator
 ```
 
 
-Eski validator anahtarınızı içe aktarmak için
+# Eski validator anahtarınızı içe aktarmak için
 
 ```
 docker compose run --rm validator-import
