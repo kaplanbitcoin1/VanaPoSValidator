@@ -29,6 +29,27 @@ chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
 
+# OpenSSL Yükleyelim
+```
+sudo apt-get install openssl
+```
 
 
+# Git ile repoyu sunucumuza çekelim
+```
+git clone https://github.com/vana-com/vana.git
+cd vana
+```
 
+# Yapılandırma Dosyasını Hazırlayalım
+
+```
+cp .env.example .env
+```
+
+
+# Şimdi .env dosyasını düzenlememiz gerekiyor
+
+```
+nano .env
+```
