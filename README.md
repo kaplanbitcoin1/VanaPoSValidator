@@ -16,7 +16,7 @@
 | ------------ | ------------ |
 | CPU | 4 Core |
 | RAM | 8 GB RAM |
-| Storage | 100 GB Nvme Disk |
+| Storage | 100 GB Nvme |
 
 
 
