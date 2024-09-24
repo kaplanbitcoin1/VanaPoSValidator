@@ -1,4 +1,8 @@
 
+[Website](https://www.vana.org/)<br>
+[Docs](https://docs.vana.org/vana)<br>
+[Faucet](https://faucet.vana.org/moksha)<br>
+
 
 
 # Sistem Gereksinimleri
@@ -84,7 +88,7 @@ docker compose --profile init --profile manual run --rm validator-keygen
 ```
 
 
-### İlk kısma görseldeki gibi .env içerisine yazdığımız Evm cüzdan adresini verelim
+### İlk kısma görseldeki gibi .env içerisindeki Evm cüzdan adresini yazalım
 
 
 <img width="876" alt="Ekran Resmi 2024-09-24 20 53 46" src="https://github.com/user-attachments/assets/3ba97a22-cf97-449d-9092-700884c9ee18">
@@ -118,7 +122,7 @@ docker compose logs check-config
 ```
 
 
-# Son olarak 3 adet node'u birden başlatalım
+# Son olarak 3 adet birbiriyle haberleşen yapıyı başlatalım
 
 
 ```
@@ -145,7 +149,7 @@ docker compose --profile=init --profile=node logs -f validator
 
 
 ### Son olarak doğrulayıcımızın `Moksha` ağına ben de burayım demesi için `35.000` adet token'a ihtiyacı var.
-### Bu miktar muhtemelen birtakım eleme yöntemi ya da seçim süreciyle dağıtılacaktır.
+### Bu miktar muhtemelen birtakım eleme yöntemiyle ya da seçim süreciyle dağıtılacaktır.
 
 
 # Eğer token bulduysak eğer ben de buradayım demek için 😁
@@ -175,4 +179,4 @@ docker compose run --rm validator-import
 ```
 
 
-# Repoya ufak bir yıldız bırakırsanız sevinirim 🐅
+# İşlemler tamamdır. Repoya ufak bir yıldız bırakırsanız sevinirim 🐅
