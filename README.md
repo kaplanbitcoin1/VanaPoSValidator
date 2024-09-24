@@ -139,3 +139,6 @@ docker compose --profile=init --profile=node logs -f beacon
 docker compose --profile=init --profile=node logs -f validator
 ```
 
+# Beacon bölümünün senkronize olmasını bekleyeceğiz
+
+<img width="1536" alt="Ekran Resmi 2024-09-24 21 22 13" src="https://github.com/user-attachments/assets/52225843-98ff-406d-a2e5-30ef7237c5cd">
