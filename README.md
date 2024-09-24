@@ -1,5 +1,17 @@
 
 
+
+| Minimum Sistem Gereksinimleri| 
+| ------------ | ------------ |
+| CPU | 4 Core - 	4 Core - The more cores you have, the better your performance will be |
+| RAM | Minimum 4 GB RAM |
+| Storage | 50 GB SSD - More space may be needed for future operations |
+| GPU | CUDA-enabled GPUs are recommended. CPU mining is available but not valid for all models |
+
+
+
+
+
 # Sunucuyu Güncelleyelim
 
 ```
@@ -53,3 +65,5 @@ cp .env.example .env
 ```
 nano .env
 ```
+
+
