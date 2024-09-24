@@ -168,3 +168,11 @@ docker compose --profile=init --profile=node restart validator
 ```
 
 
+Eski validator anahtarınızı içe aktarmak için
+
+```
+docker compose run --rm validator-import
+```
+
+
+# Repoya ufak bir yıldız bırakırsanız sevinirim 🐅
