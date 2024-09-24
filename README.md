@@ -145,7 +145,7 @@ docker compose --profile=init --profile=node logs -f validator
 
 
 ### Son olarak doğrulayıcımızın `Moksha` ağına ben de burayım demesi için `35.000` adet token'a ihtiyacı var.
-### Bu miktar muhtemelen bir takım eleme ya da seçim süreciyle olacaktır diye düşünüyorum.
+### Bu miktar muhtemelen birtakım eleme yöntemi ya da seçim süreciyle dağıtılacaktır.
 
 
 # Eğer token bulduysa eğer ben de buradayım demek için
