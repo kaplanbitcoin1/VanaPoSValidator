@@ -90,11 +90,16 @@ docker compose --profile init --profile manual run --rm validator-keygen
 <img width="876" alt="Ekran Resmi 2024-09-24 20 53 46" src="https://github.com/user-attachments/assets/3ba97a22-cf97-449d-9092-700884c9ee18">
 
 
-### İkinci kısımda bir parola belirleyelim.
-### Aynı parolayı tekrar girelim. 
+### İkinci kısımda bir parola belirleyelim 😁 (Yazmıyor gibi görünür fakat aslında yazıyordur)
+### Parolayı tekrar girmenizi isteyecek
 (Parolayı unutmayın ve bir yere kaydedin daha sonra lazım olacak)
 
 <img width="1027" alt="Ekran Resmi 2024-09-24 20 56 58" src="https://github.com/user-attachments/assets/a6bf3c84-0452-4661-84d5-c09ee2a05e21">
+
+
+### Validator için kelimeleriniz oluştu. Bu kelimeleri alt kısma aynı şekilde yapıştırıyoruz. (Bir yere kaydetmeyi unutmayın)
+
+<img width="1536" alt="Ekran Resmi 2024-09-24 21 03 27" src="https://github.com/user-attachments/assets/1bda62b6-94a6-4fb2-ba3b-a905d5d4aee9">
 
 
 
