@@ -84,7 +84,7 @@ docker compose --profile init --profile manual run --rm validator-keygen
 ```
 
 
-# İlk kısma görseldeki gibi .env içerisine girdiğimiz Evm cüzdan adresini yazıyoruz
+### İlk kısma görseldeki gibi .env içerisine yazdığımız Evm cüzdan adresini verelim
 
 
 <img width="876" alt="Ekran Resmi 2024-09-24 20 53 46" src="https://github.com/user-attachments/assets/3ba97a22-cf97-449d-9092-700884c9ee18">
