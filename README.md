@@ -148,11 +148,22 @@ docker compose --profile=init --profile=node logs -f validator
 ### Bu miktar muhtemelen birtakım eleme yöntemi ya da seçim süreciyle dağıtılacaktır.
 
 
-# Eğer token bulduysa eğer ben de buradayım demek için
+# Eğer token bulduysak eğer ben de buradayım demek için 😁
 
 
 ```
 docker compose --profile init --profile manual run --rm submit-deposits
+```
+
+
+
+### Bir hizmete tek tek buna benzer işlemler alabilirsiniz. (Son kısımlarda isimleri değiştirmek yeterli)
+
+
+```
+docker compose --profile=init --profile=node up -d validator
+docker compose --profile=init --profile=node stop validator
+docker compose --profile=init --profile=node restart validator
 ```
 
 
