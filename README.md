@@ -4,8 +4,10 @@
 
 
 [Website](https://www.vana.org/)<br>
-[Docs](https://docs.vana.org/vana)<br>
 [Faucet](https://faucet.vana.org/moksha)<br>
+[Discord](https://discord.gg/6d4bf2vG)<br>
+[Docs](https://docs.vana.org/vana)<br>
+
 
 
 
