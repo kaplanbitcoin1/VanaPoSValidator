@@ -144,5 +144,15 @@ docker compose --profile=init --profile=node logs -f validator
 <img width="1536" alt="Ekran Resmi 2024-09-24 21 22 13" src="https://github.com/user-attachments/assets/52225843-98ff-406d-a2e5-30ef7237c5cd">
 
 
-# Son olarak doğrulayıcımızın `Moksha` ağına ben de burayım demesi için `35.000` adet token'a ihtiyacı var.
+### Son olarak doğrulayıcımızın `Moksha` ağına ben de burayım demesi için `35.000` adet token'a ihtiyacı var.
+### Bu miktar muhtemelen bir takım eleme ya da seçim süreciyle olacaktır diye düşünüyorum.
+
+
+# Eğer token bulduysa eğer ben de buradayım demek için
+
+
+```
+docker compose --profile init --profile manual run --rm submit-deposits
+```
+
 
