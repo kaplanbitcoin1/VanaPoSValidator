@@ -4,7 +4,7 @@
 # Sistem Gereksinimleri
 | Bileşenler | Minimum Gereksinimler | 
 | ------------ | ------------ |
-| CPU | 2 Core |
+| CPU | 4 Core |
 | RAM | 8 GB RAM |
 | Storage | 100 GB Nvme Disk |
 
