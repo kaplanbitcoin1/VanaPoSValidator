@@ -67,8 +67,9 @@ nano .env
 ```
 
 * `WITHDRAWAL_ADDRESS` Evm Cüzdan Adresiniz
-* `DEPOSIT_PRIVATE_KEY` Evm Cüzdan Private key
-* 
+* `DEPOSIT_PRIVATE_KEY` Evm Cüzdan Private Key
+* `USE_VALIDATOR` True Olacak
+* `EXTERNAL_IP` Sunucu IP Adresiniz
 
 
 <img width="1057" alt="Ekran Resmi 2024-09-24 20 39 51" src="https://github.com/user-attachments/assets/cd959970-063b-432d-a161-04e034dc8211">
