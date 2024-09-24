@@ -105,7 +105,10 @@ docker compose --profile init --profile manual run --rm validator-keygen
 
 ### Tebrikler anahtarımız oluştu. Enter deyip devam edelim
 
-<img width="764" alt="Ekran Resmi 2024-09-24 21 11 30" src="https://github.com/user-attachments/assets/fc127828-e9b1-4662-9631-ba8c7aab07e6">
+* Daha önce oluşturduğunuz şifreyi girin
+* Sizden cüzdanınızı güvence altına almak için bir şifre belirlemenizi isteyecek. (Ben aynı şifreyi kullandım)
+
+<img width="923" alt="Ekran Resmi 2024-09-24 21 14 22" src="https://github.com/user-attachments/assets/9cf82d77-025b-4275-8779-02a1a6f5d7e8">
 
 
 
