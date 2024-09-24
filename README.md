@@ -75,10 +75,16 @@ nano .env
 <img width="1057" alt="Ekran Resmi 2024-09-24 20 39 51" src="https://github.com/user-attachments/assets/cd959970-063b-432d-a161-04e034dc8211">
 
 
-* Her şey tamamsa şimdi validator keyimizi oluşturacağız. Bunun için:
+* Her şey tamamsa şimdi validator keyimizi oluşturacağız. Bu işlem bir müddet sürebilir
 
 
 
 ```
 docker compose --profile init --profile manual run --rm validator-keygen
 ```
+
+
+* İlk kısma görseldeki gibi .env içerisine girdiğimiz Evm cüzdan adresini yazıyoruz
+
+
+<img width="876" alt="Ekran Resmi 2024-09-24 20 53 46" src="https://github.com/user-attachments/assets/3ba97a22-cf97-449d-9092-700884c9ee18">
