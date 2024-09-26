@@ -85,7 +85,7 @@ nano .env
 <img width="1057" alt="Ekran Resmi 2024-09-24 20 39 51" src="https://github.com/user-attachments/assets/cd959970-063b-432d-a161-04e034dc8211">
 
 
-* Her şey tamamsa şimdi validator keyimizi oluşturacağız. Bu işlem bir müddet sürebilir
+* If everything is complete, we will now create our validator key. This process may take some time.
 
 
 
@@ -94,21 +94,21 @@ docker compose --profile init --profile manual run --rm validator-keygen
 ```
 
 
-### İlk kısma görseldeki gibi .env içerisindeki Evm cüzdan adresini yazalım
+### For the first part, enter your EVM wallet address in the .env file as shown in the image.
 
 
 <img width="876" alt="Ekran Resmi 2024-09-24 20 53 46" src="https://github.com/user-attachments/assets/3ba97a22-cf97-449d-9092-700884c9ee18">
 
 
-### İkinci kısımda bir parola belirleyelim 😁 (Yazmıyor gibi görünür fakat aslında yazıyordur)
-### Parolayı tekrar girmenizi isteyecek
-(Parolayı unutmayın ve bir yere kaydedin daha sonra lazım olacak)
+### In the second part, let's set a password 😁 (It may appear not to be typing, but it actually is)
+### You will be asked to re-enter the password
+(Do not forget the password and save it somewhere; you will need it later)
 
 <img width="1027" alt="Ekran Resmi 2024-09-24 20 56 58" src="https://github.com/user-attachments/assets/a6bf3c84-0452-4661-84d5-c09ee2a05e21">
 
 
-### Validator için kelimeleriniz oluştu. Bu kelimeleri bir yere kaydedip Enter tuşuna basın
-### Sizden kelimeleri isteyecek, dolduralım
+### Your words for the validator have been generated. Save these words somewhere and press Enter.
+### You will be asked for the words, let's fill them in.
 
 <img width="953" alt="Ekran Resmi 2024-09-24 21 06 11" src="https://github.com/user-attachments/assets/cc34b1ed-2ec2-4608-802f-8ef6e61c022d">
 
