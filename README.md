@@ -10,7 +10,6 @@
 
 
 
-
 # System Requirements
 | Components	 | Minimum Requirements | 
 | ------------ | ------------ |
