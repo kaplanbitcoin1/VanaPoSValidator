@@ -158,7 +158,7 @@ docker compose --profile=init --profile=node logs -f validator
 ### This amount will likely be distributed through some elimination method or selection process.
 
 
-# Eğer token bulduysak ben de buradayım demek için 😁
+# If we have found tokens, let's say "I'm here" 😁
 
 
 ```
@@ -167,8 +167,8 @@ docker compose --profile init --profile manual run --rm submit-deposits
 
 
 
-### Bir hizmete tek tek buna benzer işlemler alabilirsiniz. (Son kısımlarda isimleri değiştirmek yeterli) 
-### (validator yerine geth, beacon gibi)
+### You can perform similar operations one by one for a service. (In the last parts, it's sufficient to change the names)
+### (instead of validator, use geth, beacon, etc.)
 
 
 ```
@@ -178,11 +178,11 @@ docker compose --profile=init --profile=node restart validator
 ```
 
 
-# Eski validator anahtarınızı içe aktarmak için
+# To import your old validator key
 
 ```
 docker compose run --rm validator-import
 ```
 
 
-### İşlemler tamamdır. Repoya ufak bir yıldız bırakırsanız sevinirim 🐅
+### The operations are complete. I would appreciate it if you could leave a small star on the repo 🐅
