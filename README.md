@@ -11,8 +11,8 @@
 
 
 
-# Sistem Gereksinimleri
-| Bileşenler | Minimum Gereksinimler | 
+# System Requirements
+| Components	 | Minimum Requirements | 
 | ------------ | ------------ |
 | CPU | 4 Core |
 | RAM | 8 GB RAM |
@@ -22,7 +22,7 @@
 
 
 
-# Sunucuyu Güncelleyelim
+# Update the Server
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -30,7 +30,7 @@ sudo apt install jq -y
 ```
 
 
-# Docker Kuralım
+# Install Docker
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
@@ -51,35 +51,35 @@ chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
 
-# OpenSSL Yükleyelim
+# Install OpenSSL
 ```
 sudo apt-get install openssl
 ```
 
 
-# Git ile repoyu sunucumuza çekelim
+# Let's Pull the Repository to Our Server with Git
 ```
 git clone https://github.com/vana-com/vana.git
 cd vana
 ```
 
-# Yapılandırma Dosyasını Hazırlayalım
+# Prepare the Configuration File
 
 ```
 cp .env.example .env
 ```
 
 
-# Şimdi .env dosyasını düzenlememiz gerekiyor
+# Now we need to edit the .env file
 
 ```
 nano .env
 ```
 
-* `WITHDRAWAL_ADDRESS` Evm Cüzdan Adresiniz
-* `DEPOSIT_PRIVATE_KEY` Evm Cüzdan Private Key
-* `USE_VALIDATOR` True Olacak
-* `EXTERNAL_IP` Sunucu IP Adresiniz. CommandX/CommandY=Enter
+* `WITHDRAWAL_ADDRESS` Your EVM Wallet Address
+* `DEPOSIT_PRIVATE_KEY` EVM Wallet Private Key
+* `USE_VALIDATOR` Should be True
+* `EXTERNAL_IP` Your Server IP Address. CommandX/CommandY=Enter
 
 
 <img width="1057" alt="Ekran Resmi 2024-09-24 20 39 51" src="https://github.com/user-attachments/assets/cd959970-063b-432d-a161-04e034dc8211">
