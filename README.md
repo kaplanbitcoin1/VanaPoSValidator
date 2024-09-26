@@ -113,29 +113,29 @@ docker compose --profile init --profile manual run --rm validator-keygen
 <img width="953" alt="Ekran Resmi 2024-09-24 21 06 11" src="https://github.com/user-attachments/assets/cc34b1ed-2ec2-4608-802f-8ef6e61c022d">
 
 
-### Tebrikler anahtarımız oluştu. Enter deyip devam edelim
+### Congratulations, your key has been created. Press Enter to continue.
 
-* Şimdi daha önce oluşturduğunuz şifreyi girin
-* Sizden cüzdanınızı güvence altına almak için bir şifre belirlemenizi isteyecek. (Ben aynı şifreyi kullandım)
+* Now enter the password you created earlier.
+* You will be asked to set a password to secure your wallet. (I used the same password)
 
 <img width="923" alt="Ekran Resmi 2024-09-24 21 14 22" src="https://github.com/user-attachments/assets/9cf82d77-025b-4275-8779-02a1a6f5d7e8">
 
 
-### Yaptığımız işlemleri kontrol edelim
+### Let's check the operations we have done.
 
 ```
 docker compose logs check-config
 ```
 
 
-# Son olarak 3 adet birbiriyle haberleşen yapıyı başlatalım
+# Finally, let's start the interconnected structure of 3 components.
 
 
 ```
 docker compose --profile init --profile validator up -d
 ```
 
-# Ayrı ayrı log kontrol
+# Separate log checks
 
 ```
 docker compose --profile=init --profile=node logs -f geth
@@ -149,13 +149,13 @@ docker compose --profile=init --profile=node logs -f beacon
 docker compose --profile=init --profile=node logs -f validator
 ```
 
-# Beacon bölümünün senkronize olmasını bekleyeceğiz
+# We will wait for the beacon section to synchronize.
 
 <img width="1536" alt="Ekran Resmi 2024-09-24 21 22 13" src="https://github.com/user-attachments/assets/52225843-98ff-406d-a2e5-30ef7237c5cd">
 
 
-### Son olarak doğrulayıcımızın `Moksha` ağına ben de buradayım demesi için `35.000` adet token'a ihtiyacı var.
-### Bu miktar muhtemelen birtakım eleme yöntemiyle ya da seçim süreciyle dağıtılacaktır.
+### Finally, our validator needs `35,000` tokens to say `I'm here` on the Moksha network.
+### This amount will likely be distributed through some elimination method or selection process.
 
 
 # Eğer token bulduysak ben de buradayım demek için 😁
