@@ -177,11 +177,5 @@ docker compose --profile=init --profile=node restart validator
 ```
 
 
-# To import your old validator key
-
-```
-docker compose run --rm validator-import
-```
-
 
 ### The operations are complete. I would appreciate it if you could leave a small star on the repo 🐅
